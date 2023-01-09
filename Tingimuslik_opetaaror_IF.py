@@ -177,3 +177,12 @@ if nimi.upper==("JUKU") and nimi.isdigit:
         print("Vanus ei sobi.")
 else:
     print("Ma ostsin Juku")
+#WhileTrue
+while True:
+  vastus = int(input("Lahenda ülesanne ... 4*100-55 = "))
+  if vastus == o_vastus:
+    print("Õige vastus! Katsed oli", k)
+    break
+  else:
+    print("Viga! Sisesta Õige vastus ...")
+    k += 1
